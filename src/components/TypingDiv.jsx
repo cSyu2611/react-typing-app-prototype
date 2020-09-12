@@ -117,14 +117,10 @@ class TypingDiv extends Component {
         <div className="result-container">
           <button onClick={() => this._onResetClick()}>リセット</button>
           <ul>
-            <li>
-              <div>タイポ回数：{this.state.typoCount}</div>
-            </li>
-            <li>
-              <div ref={ref => (this.time = ref)}>
-                タイム：{this.state.time / 1000}
-              </div>
-            </li>
+            <div>タイポ回数：{this.state.typoCount}</div>
+            <div ref={ref => (this.time = ref)}>
+              タイム：{this.state.time / 1000}
+            </div>
           </ul>
         </div>
       </div>
