@@ -2,6 +2,7 @@
   "name": "react-typing-app-prototype",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://csyu2611.github.io/react-typing-app-prototype",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
