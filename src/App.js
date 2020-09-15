@@ -11,13 +11,11 @@ import TypingDiv from "./components/TypingDiv";
 class App extends Component {
   render() {
     return (
-      // <Provider store={store}>
       <div className="App">
         <PageDescription />
         <br />
         <TypingDiv />
       </div>
-      // </Provider>
     );
   }
 }
